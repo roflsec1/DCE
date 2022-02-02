@@ -43,3 +43,7 @@ print(received_nocorrect)
 
 for i in range(0, len(received_nocorrect)):
 	received_data.append(de[i] + received_nocorrect[i])
+	
+print("Original data = {} ".format(x))
+print("Received data = {} ".format(received_data))
+
